@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mumblers Demo', sans-serif;
+    background-color: rgb(53, 185, 185);
+}
+
+.groceries {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.container {
+    border: 1px solid black;
+    min-height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    background-color: rgb(88, 102, 102);
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.groceries input {
+    font-family: 'Mumblers Demo', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border: 0;
+    border-bottom: 4px solid black;
+    background-color: rgb(88, 102, 102);
+    width: 50%;
+}
+
+#all-items {
+  margin-top: 0.2%;
+  margin-left: 0.2%;
+  margin-left: 0.2%;  
+}
+
+#pencil {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .groceries input {
+        font-size: 1rem;
+        background-color: blueviolet;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .container {
+        background-color: blueviolet;
+    }
+    #pencil {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .groceries input {
+        font-size: 0,8rem;
+        background-color: blueviolet;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .container {
+        background-color: blueviolet;
+    }
+    #pencil {
+        font-size: 0.8rem;
+    }
+}
